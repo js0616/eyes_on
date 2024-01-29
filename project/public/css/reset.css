@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+body { overflow-x: hidden; font-family: 'Noto Sans KR', sans-serif; font-size: 15px; color: #333; }
+ul li { list-style: none; }
+img { max-width: 100%; border: 0; }
+a { display: block; color: inherit; text-decoration: none; }
+button { outline: 0; font-size: 15px; color: inherit; border: 0; background: none; cursor: pointer; }
+canvas { width: 100%; height: 100%; cursor: grab; }
+.inner { position: relative; height: 100%; }
+.overlay { position: absolute; left: 0; top: 0; right: 0; bottom: 0; width: 100%; height: 100%; }
+.glass { border-left: 1px solid rgba(255,255,255,.5); border-top: 1px solid rgba(255,255,255,.5); background: rgba(255,255,255,.1); box-shadow: -3px -3px 5px rgba(0,0,0,.1), 10px 10px 20px rgba(0,0,0,.5); backdrop-filter: blur(5px); }
+.cursor { position: fixed; left: -15px; top: -15px; width: 30px; height: 30px; border-radius: 50%; background: #104fe0; opacity: 0.5; z-index: 999; transform: translate(0, 0); pointer-events: none; }
+.main_color { color: #104fe0; }
+.main_bg { background: #104fe0; }
+.main_border { border-color: #104fe0; }
+.tab-headers button { font-family: 'Noto Sans KR', sans-serif; }
+
+/* init */
+.splash { display: flex; justify-content: center; align-items: center; position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; background: #fff; z-index: 999; }
+.splash > .inner { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 30px; width: 500px; height: 500px; }
+.splash .text { overflow: hidden; position: relative; width: 340px; height: 50px; }
+.splash .slogan,
+.splash .splash_logo { position: absolute; top: 0; left: 0; width: 100%; text-align: center; font-family: 'Noto Sans KR', sans-serif; font-size: 30px; }
+.splash .splash_logo { font-family: 'Roboto', sans-serif; font-size: 36px; color: #104fe0; letter-spacing: 1px; }
+/* background */
+.nor_bg { background: #20bf6b; }
+.cau_bg { background: #fd9644; }
+.war_bg { background: #e74c3c; }
+/* border */
+.nor_bd { border: 5px solid #20bf6b; }
+.cau_bd { border: 5px solid #fd9644; }
+.war_bd { border: 5px solid #e74c3c; }
+/* shadow */
+.nor_shadow { box-shadow: 0 0 5px #20bf6b, 0 0 10px #20bf6b, 0 0 20px #20bf6b; }
+.cau_shadow { box-shadow: 0 0 5px #fd9644, 0 0 10px #fd9644, 0 0 20px #fd9644; }
+.war_shadow { box-shadow: 0 0 5px #e74c3c, 0 0 10px #e74c3c, 0 0 20px #e74c3c; }
+
+::-webkit-scrollbar { width: 10px; background: #616161; }
+::-webkit-scrollbar-thumb { border-radius: 5px; background: #a1a2a3; }
+.alarm_area .alarm_list::-webkit-scrollbar { width: 10px; border-radius: 5px; }
+.alarm_area .alarm_list::-webkit-scrollbar-thumb { background: #a1a2a3; }
+
+@keyframes warning_alarm_bg {
+  0% { background: inherit; }
+  49% { background: inherit; }
+  50% { background: #fff; }
+  100% { background: #fff; }
+}

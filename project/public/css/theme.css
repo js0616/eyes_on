@@ -1,0 +1,35 @@
+/* theme */
+.App.dark .cursor { background: #fff; }
+.App.dark .header_bg { background: #333; box-shadow: 0 1px 3px rgba(255,255,255,.3); }
+.App.dark .dark_bg_01 { background: #181818; }
+.App.dark .dark_bg_02 { background: #1f1f1f; }
+.App.dark .dark_bg_03 { background: #333; }
+.App.dark .dark_bg_05 { background: #555; }
+.App.dark .dark_bd_05 { border-color: #555; }
+.App.dark .dark_bg_06 { background: #919191; }
+.App.dark .white_txt_01 { color: #fff; }
+.App.dark .white_txt_02 { color: #c1c2c3; }
+.App.dark .white_txt_03 { color: #e2e2e2; }
+.App.dark a.on::before { background: #fff; }
+.App.dark .light_logo { color: #4b7bec; }
+.App.dark .dark_input { color: #fff; border: 0; background: rgba(255,255,255,.1); }
+.App.dark .facility_tooltip::after { background: #181818; }
+.App.dark .alarm_area .alarm_list::-webkit-scrollbar-thumb { background: #666; }
+/* box-shadow: -2px -2px 4px rgba(0,0,0,.1), 4px 4px 6px rgba(0,0,0,.3); */
+
+.App.dark .floor_plan_swiper .swiper-slide-active .floor_plan .camera_facility_map { border-color: rgba(15, 78, 224, 1); }
+.App.dark .swiper-pagination-bullet,
+.App.dark .swiper-pagination-bullet-active { color: #fff; }
+
+/* background */
+.App.dark .nor_bg { background: #1dd1a1; }
+.App.dark .cau_bg { background: #feca57; }
+.App.dark .war_bg { background: #ff6b6b; }
+/* border */
+.App.dark .nor_bd { border: 4px solid #1dd1a1; }
+.App.dark .cau_bd { border: 4px solid #feca57; }
+.App.dark .war_bd { border: 4px solid #ff6b6b; }
+/* shadow */
+.App.dark .nor_shadow { box-shadow: 0 0 5px #1dd1a1, 0 0 10px #1dd1a1, 0 0 20px #1dd1a1; }
+.App.dark .cau_shadow { box-shadow: 0 0 5px #feca57, 0 0 10px #feca57, 0 0 20px #feca57; }
+.App.dark .war_shadow { box-shadow: 0 0 5px #ff6b6b, 0 0 10px #ff6b6b, 0 0 20px #ff6b6b; }

@@ -1,0 +1,16 @@
+01 실제 카메라 자리
+02 배터리팩 - battery pack
+03 고압전동기 - electric motor
+04 변압기접속부 - transformer connection
+05 차축베어링 - axle bearing
+06 단로기 - disconnector
+07 보일러 - Boiler
+08 케이블&부스 연결개소 - cable connection point
+09 펌프 - Pump
+10 계기용 변압기 - instrument transformer
+11 변압기 케이블 연결개소 포함 - Transformer cable 
+12 계기용 변류기
+13  전자접촉기
+14 차단기 breaker
+15 계기용 변성기 MOF
+16 태양광 - solar panel
