@@ -9,17 +9,13 @@
 
 /flask/appp2.py </br>
 
-[학습된 딥러닝 모델]
-
-model : yolov5 모델
-
-LSTM_Model : LSTM 모델
-
-[온도 임시 저장 변수]
-
-temp_list : 측정온도 배열
-
-total_list : 측정 온도 + 예측 온도 배열
+[학습된 딥러닝 모델] </br>
+model : yolov5 모델 </br>
+LSTM_Model : LSTM 모델 </br>
+</br>
+[온도 임시 저장 변수] </br>
+temp_list : 측정온도 배열 </br>
+total_list : 측정 온도 + 예측 온도 배열 </br>
 
 [함수]
 
