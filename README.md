@@ -3,7 +3,7 @@
 인원 : 5명   </br>
 활용기술 : Node.js, Flask, Python, Yolov5, LSTM, OCR  </br>
 
-***
+---
 
 [flask]
 
